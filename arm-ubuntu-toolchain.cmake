@@ -1,5 +1,5 @@
 set(CMAKE_SYSTEM_NAME Linux)
-set(TOOLCHAIN_PREFIX arm-linux-gnueabihf)
+set(TOOLCHAIN_PREFIX aarch64-linux-gnu)
 
 # cross compilers to use for C and C++
 set(CMAKE_C_COMPILER ${TOOLCHAIN_PREFIX}-gcc)
